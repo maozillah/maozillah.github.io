@@ -1,0 +1,38 @@
+/*loader*/
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url(../img/heart.gif) no-repeat center center
+}
+/*basics*/
+
+html,
+body {
+    padding: 0;
+    margin: 0
+}
+#content {
+    max-width: 563px;
+    margin: 2% auto;
+    padding: 2%;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid red
+}
+a:hover {
+    color: red;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}

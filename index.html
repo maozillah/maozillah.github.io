@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" />
+    <title>maozillah - code portfolio</title>
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <div id="preloader"></div>
+    
+    <div id="content">
+        <h2 class="typl8-beta">Projects by Maozillah</h2>
+        <hr>
+        <h3 class="typl8-gamma">Zenith</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea blanditiis velit illum architecto assumenda perferendis ipsum accusamus repellat recusandae, dolores soluta eveniet praesentium quae at nemo enim harum veniam, doloribus! <br>
+        <a href="" target="_blank">View the project</a> | <a href="" target="_blank">View the code</a> </p>
+
+    </div>
+   
+    <script src="js/jquery.js"></script>
+    <script src="js/flowtype.js"></script>
+    <script>
+         // preloader
+
+  $(document).ready(function() {
+
+    $('html').flowtype({
+ minimum   : 500,
+ maximum   : 1200,
+ minFont   : 14,
+ maxFont   : 40,
+ fontRatio : 60
+});
+      $(window).load(function() {
+          $('#preloader').fadeOut('slow', function() {
+              $(this).remove();
+          });
+      });
+
+       });
+    </script>
+</body>
+
+</html>
