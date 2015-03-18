@@ -36,3 +36,10 @@ a:hover {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease
 }
+
+ /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+#content {
+    max-width: 100%;
+}
+    }
